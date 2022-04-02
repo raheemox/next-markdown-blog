@@ -45,7 +45,7 @@ header a {
 
 .btn {
   display: inline-block;
-  background: steelblue;
+  background: #000;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -54,6 +54,7 @@ header a {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+  border: 1px solid rgb(255, 255, 255); 
 }
 
 .btn:focus {
@@ -61,13 +62,17 @@ header a {
 }
 
 .btn:hover {
-  transform: scale(0.98);
+  border: 1px solid black; 
+  transform: scale(0.95);
+  background-color: aqua;
+  color: #000;
 }
 
 .btn-back {
-  background: #f4f4f4;
+  background: #ffe1e1;
   color: #000;
   margin-bottom: 20px;
+  text-decoration:bold;
 }
 
 .posts {
