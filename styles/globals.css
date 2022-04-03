@@ -41,10 +41,24 @@ header a {
 }
 
 .container {
+  
   max-width: 768px;
   margin: auto;
   overflow: auto;
   padding: 0 10px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo{
+  display: inline-flex;
+  justify-items: center;
+  padding: 20px;
+  color: aquamarine;
+  margin-left: 15%;
 }
 
 .btn {
@@ -60,6 +74,7 @@ header a {
   font-family: inherit;
   border: 1px solid rgb(255, 255, 255); 
 }
+
 
 .btn:focus {
   outline: none;
@@ -132,5 +147,9 @@ ol {
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
+  }
+  .logo{
+    padding: 20px;
+    color: aquamarine;
   }
 }
