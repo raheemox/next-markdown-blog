@@ -113,11 +113,33 @@ header a {
   border: 1px solid rgb(255, 255, 255); 
 }
 
+.btn-2{
+  text-align: center;
+  display: block;
+  margin-right: 50%;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  border: 1px solid rgb(255, 255, 255); 
+}
+
 
 .btn:focus {
   outline: none;
 }
 
+.btn-2:hover {
+  border: 1px solid black; 
+  transform: scale(1);
+  background-color: aqua;
+  color: #000;
+}
 .btn:hover {
   border: 1px solid black; 
   transform: scale(1);
