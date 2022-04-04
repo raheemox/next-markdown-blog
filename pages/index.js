@@ -8,9 +8,7 @@ import { sortByDate } from '../utils'
 export default function Home({ posts }) {
   return (
     <div>
-      <Head>
-        <title>Raheem Blog</title>
-      </Head>
+
 
       <div className='posts'>
         {posts.map((post, index) => (
