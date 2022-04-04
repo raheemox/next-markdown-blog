@@ -6,7 +6,7 @@ const Contact = () => {
             <form className="small-card" name="contact" method="POST" data-netlify="true" action="/success" netlify-honeypot="bot-field">
                 <input className="form" placeholder="enter your email" type="email" name="email" />
                 <textarea placeholder="exapmle: build me a website?" className="form" name="" id="" cols="25" rows="3"></textarea>
-                <button className="btn-2" type="submit">submit this</button>
+                <button className="" type="submit">submit this</button>
                 <p className="p">I will answer you after 2 hours</p>
                
                 <label className="hidden">
