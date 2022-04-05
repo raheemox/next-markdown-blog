@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+      <link rel="shortcut icon" href="/favicon.png" />
         <title>Raheem Blog</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>

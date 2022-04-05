@@ -9,7 +9,7 @@ export default function Post({ post }) {
       </Link>
       <div className='post-date'>Posted on {post.frontmatter.date}</div>
 
-      <h3>{post.frontmatter.title}</h3>
+      <h3 className='post-title'>{post.frontmatter.title}</h3>
 
       <p>{post.frontmatter.excerpt}</p>
 
